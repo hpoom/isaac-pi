@@ -1,0 +1,31 @@
+from sense_hat import SenseHat
+import time
+
+sense = SenseHat()
+#sense.show_message("HELLO")
+
+red = (255, 0, 0)
+
+sense.set_pixel(1, 1, red)
+sense.set_pixel(1, 2, red)
+sense.set_pixel(1, 4, red)
+sense.set_pixel(1, 5, red)
+sense.set_pixel(2, 0, red)
+sense.set_pixel(2, 1, red)
+sense.set_pixel(2, 2, red)
+sense.set_pixel(2, 3, red)
+sense.set_pixel(2, 4, red)
+sense.set_pixel(2, 5, red)
+sense.set_pixel(2, 6, red)
+sense.set_pixel(3, 0, red)
+sense.set_pixel(3, 1, red)
+sense.set_pixel(3, 2, red)
+sense.set_pixel(3, 3, red)
+sense.set_pixel(3, 4, red)
+sense.set_pixel(3, 5, red)
+sense.set_pixel(3, 6, red)
+sense.set_pixel(4, 1, red)
+sense.set_pixel(4, 2, red)
+sense.set_pixel(4, 3, red)
+sense.set_pixel(4, 4, red)
+sense.set_pixel(4, 5, red)
